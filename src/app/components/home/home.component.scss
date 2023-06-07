@@ -1,0 +1,101 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    mat-form-field {
+      width: 50%;
+      border-radius: 2rem;
+    }
+  
+    input {
+      line-height: 22px;
+    }
+  }
+  
+  .barraBusqueda,
+  .btn-s,
+  .mat-form-field-flex,
+  .mat-select,
+  .mat-option {
+    font-family: Poppins;
+  }
+  
+  .iconoPrincipal {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .localDrinkIcon {
+    padding-right: 30px;
+  }
+  
+  .mat-card-title {
+    text-align: center;
+    font-family: Poppins;
+    padding: 14px;
+  }
+  
+  .input-search {
+    width: 100%;
+    padding: 15px 30px;
+    justify-content: center;
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%) !important;
+    border-radius: 12px !important;
+    font-family: Poppins;
+  }
+  
+  .btn-s:not(:disabled) {
+    background-color: #f57c00;
+  }
+  
+  .boton-buscar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .mat-card {
+      width: 157% !important;
+    }
+  
+    .buscar {
+      width: 97% !important;
+    }
+  
+    .filtro {
+      width: 97% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .mat-card {
+      width: 157% !important;
+    }
+  
+    .buscar {
+      width: 97% !important;
+    }
+  
+    .filtro {
+      width: 97% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .mat-card {
+      width: 157% !important;
+    }
+  
+    .buscar {
+      width: 80% !important;
+    }
+  
+    .filtro {
+      width: 97% !important;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+<div>
+  <div class="video-player-wrapper">
+      <vg-player>
+        <vg-overlay-play></vg-overlay-play>
+        <vg-buffering></vg-buffering>
+        <video [vgMedia]="$any(media)" #media id="singleVideo" loop="true" [autoplay]="true" preload="auto" crossorigin>
+          <source src="assets/vid321.mp4" type="video/mp4">
+        </video>
+      </vg-player>
+    </div>
+</div>
