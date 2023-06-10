@@ -12,3 +12,10 @@ Also, once a drink is selected, you can navigate through the filters provided by
 
 In case it is of your interest, the Angular version is 12 and the node version is 14. Here I also leave the API https://www.thecocktaildb.com/api.php
 
+
+Results that you can use to test the site:
+
+- Lemon as a name or ingredient
+- Beer as a category
+- Lemon as category, this last one is to see the page with no results.
+
